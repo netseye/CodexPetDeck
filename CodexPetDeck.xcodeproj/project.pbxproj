@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7A8E4051E3D73C0A2E4108 /* PetDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFDF32D5C28F8FD2A607D8C /* PetDeckView.swift */; };
+		0E6E28925064017F7F41D9B1 /* CodexPetDeckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3BD91B27E69E4CCEA0361 /* CodexPetDeckTests.swift */; };
+		2149EFF1C30EEAAF724A1A87 /* CodexPetThemeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFAB237ADA1214F8A77B66 /* CodexPetThemeBuilder.swift */; };
+		22B3684AAE6A6D00A21BDF8E /* CodexTailWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C356E3041BD4E9862F94D7 /* CodexTailWatcher.swift */; };
+		2CBC20077565D8C09462957F /* CodexPetDeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB6C439D1A42B23AED1767 /* CodexPetDeckApp.swift */; };
+		2D2AF7B1BD639F1A2D6EEA33 /* IconImageNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B164F052F520E00B8A16930 /* IconImageNormalizer.swift */; };
+		2D4E2558F91E1C12879B8E10 /* ThemeJSONWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEDDF919094504A5328429 /* ThemeJSONWriter.swift */; };
+		5A4E36A79661F6338BDEA329 /* ThemeFileCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B6A060F78DDB8EAD8E61CD /* ThemeFileCodec.swift */; };
+		5E0098F43F79D102605DF460 /* MK20HIDWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452E74EA0726D9F8310500D /* MK20HIDWatcher.swift */; };
+		7C3AF7F700A6F013FB463004 /* mk20-recover-lunch.sh in Resources */ = {isa = PBXBuildFile; fileRef = E6DEE546912DAB416577CC49 /* mk20-recover-lunch.sh */; };
+		8512AA77DFAD180ED22F9450 /* CodexStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CBC027E5986B2BC2D9FD83 /* CodexStateStore.swift */; };
+		86406728FBC944249895339A /* SerialPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052F18AD8CA4D9FCAD1946D8 /* SerialPort.swift */; };
+		986F0CCB6B9C316AD83B347A /* DataLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5D517EC5F8CDE15F80CAA9 /* DataLE.swift */; };
+		AD7F694426A42A462D22F5C5 /* CodexTailEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790268FBF5CE4702B8B0DD1B /* CodexTailEvent.swift */; };
+		AE0253E7421A6247B303A7E4 /* CodexDesktopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18609E8334E09C41BF4EBF10 /* CodexDesktopController.swift */; };
+		B33600B629F729DBB34F86EA /* CodexMicroHIDTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590650A667D4005F21D477AE /* CodexMicroHIDTransport.swift */; };
+		B87A26D8BA93FDDCC19A86FC /* ThemeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B675DDE985691980FEBE31 /* ThemeBuilder.swift */; };
+		C0F34E33D478DD355A8D9600 /* CodexMicroBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C330E151EB55D6C079662A1 /* CodexMicroBridge.swift */; };
+		CBF57D0DFF1707AF96EBD376 /* CodexSessionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332ABCA83BF2014648AE895 /* CodexSessionParser.swift */; };
+		D073281D6B6AC6006ACE1034 /* V2PacketCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCC74CC5C23B336BDFA783 /* V2PacketCodec.swift */; };
+		D5694F6FC7493FE9A967361D /* PetDeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75229326EB2AC1DB16C0AC2D /* PetDeckViewModel.swift */; };
+		E544586F87BD80F30F79856B /* CRC32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417241A708B3B911CEFF84C7 /* CRC32.swift */; };
+		EAD5F11C9F9BDD6EE4775AE0 /* WidgetBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42F3470C4A9A6A56850995 /* WidgetBuilder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3C9EA199506254A08300B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C6C4C11AA0E986A80C788B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4853395D1A3612292310409D;
+			remoteInfo = CodexPetDeck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052F18AD8CA4D9FCAD1946D8 /* SerialPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialPort.swift; sourceTree = "<group>"; };
+		18609E8334E09C41BF4EBF10 /* CodexDesktopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexDesktopController.swift; sourceTree = "<group>"; };
+		1DFDF32D5C28F8FD2A607D8C /* PetDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDeckView.swift; sourceTree = "<group>"; };
+		36A1F2746273D8B21A74FE3E /* CodexPetDeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodexPetDeckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC3BD91B27E69E4CCEA0361 /* CodexPetDeckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexPetDeckTests.swift; sourceTree = "<group>"; };
+		417241A708B3B911CEFF84C7 /* CRC32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRC32.swift; sourceTree = "<group>"; };
+		5897D2F7830951E9FE35CC6B /* CodexPetDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodexPetDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590650A667D4005F21D477AE /* CodexMicroHIDTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexMicroHIDTransport.swift; sourceTree = "<group>"; };
+		5B164F052F520E00B8A16930 /* IconImageNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImageNormalizer.swift; sourceTree = "<group>"; };
+		65EEDDF919094504A5328429 /* ThemeJSONWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeJSONWriter.swift; sourceTree = "<group>"; };
+		6C5D517EC5F8CDE15F80CAA9 /* DataLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLE.swift; sourceTree = "<group>"; };
+		75229326EB2AC1DB16C0AC2D /* PetDeckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDeckViewModel.swift; sourceTree = "<group>"; };
+		790268FBF5CE4702B8B0DD1B /* CodexTailEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexTailEvent.swift; sourceTree = "<group>"; };
+		7C330E151EB55D6C079662A1 /* CodexMicroBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexMicroBridge.swift; sourceTree = "<group>"; };
+		96C356E3041BD4E9862F94D7 /* CodexTailWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexTailWatcher.swift; sourceTree = "<group>"; };
+		A0EFAB237ADA1214F8A77B66 /* CodexPetThemeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexPetThemeBuilder.swift; sourceTree = "<group>"; };
+		A1B675DDE985691980FEBE31 /* ThemeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBuilder.swift; sourceTree = "<group>"; };
+		B1CBC027E5986B2BC2D9FD83 /* CodexStateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexStateStore.swift; sourceTree = "<group>"; };
+		D1CCC74CC5C23B336BDFA783 /* V2PacketCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2PacketCodec.swift; sourceTree = "<group>"; };
+		D3B6A060F78DDB8EAD8E61CD /* ThemeFileCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFileCodec.swift; sourceTree = "<group>"; };
+		D452E74EA0726D9F8310500D /* MK20HIDWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK20HIDWatcher.swift; sourceTree = "<group>"; };
+		E332ABCA83BF2014648AE895 /* CodexSessionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexSessionParser.swift; sourceTree = "<group>"; };
+		E4BB6C439D1A42B23AED1767 /* CodexPetDeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexPetDeckApp.swift; sourceTree = "<group>"; };
+		E6DEE546912DAB416577CC49 /* mk20-recover-lunch.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "mk20-recover-lunch.sh"; sourceTree = "<group>"; };
+		FA42F3470C4A9A6A56850995 /* WidgetBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBuilder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1487DBF53693379C62230158 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DFDF32D5C28F8FD2A607D8C /* PetDeckView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BC2A31B48601E93AA3CBF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5897D2F7830951E9FE35CC6B /* CodexPetDeck.app */,
+				36A1F2746273D8B21A74FE3E /* CodexPetDeckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FCED93AECA0D4ABA919EE35 /* CodexPetDeckTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC3BD91B27E69E4CCEA0361 /* CodexPetDeckTests.swift */,
+			);
+			path = CodexPetDeckTests;
+			sourceTree = "<group>";
+		};
+		5C720118DF5506C9CCC1314D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				721D55CF2A0924674C693776 /* CodexDesktop */,
+				EE84BF109AE9D1131C4E27AE /* CodexMicro */,
+				C91C14A86806FCC27F707F38 /* CodexTail */,
+				6A672E8A1F706A6DCFF8C07A /* MK20 */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5CC87CBA71436C926F7D374D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75229326EB2AC1DB16C0AC2D /* PetDeckViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A672E8A1F706A6DCFF8C07A /* MK20 */ = {
+			isa = PBXGroup;
+			children = (
+				417241A708B3B911CEFF84C7 /* CRC32.swift */,
+				6C5D517EC5F8CDE15F80CAA9 /* DataLE.swift */,
+				5B164F052F520E00B8A16930 /* IconImageNormalizer.swift */,
+				D452E74EA0726D9F8310500D /* MK20HIDWatcher.swift */,
+				052F18AD8CA4D9FCAD1946D8 /* SerialPort.swift */,
+				A1B675DDE985691980FEBE31 /* ThemeBuilder.swift */,
+				D3B6A060F78DDB8EAD8E61CD /* ThemeFileCodec.swift */,
+				65EEDDF919094504A5328429 /* ThemeJSONWriter.swift */,
+				D1CCC74CC5C23B336BDFA783 /* V2PacketCodec.swift */,
+				FA42F3470C4A9A6A56850995 /* WidgetBuilder.swift */,
+			);
+			path = MK20;
+			sourceTree = "<group>";
+		};
+		721D55CF2A0924674C693776 /* CodexDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				18609E8334E09C41BF4EBF10 /* CodexDesktopController.swift */,
+			);
+			path = CodexDesktop;
+			sourceTree = "<group>";
+		};
+		72A9C8C2FF6DFD877F86C6FB /* DeviceSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E6DEE546912DAB416577CC49 /* mk20-recover-lunch.sh */,
+			);
+			path = DeviceSupport;
+			sourceTree = "<group>";
+		};
+		9BD1C20AC71E9AE50FB980E6 /* CodexPetDeck */ = {
+			isa = PBXGroup;
+			children = (
+				DED783D06313321F0AD1B075 /* App */,
+				5CC87CBA71436C926F7D374D /* Models */,
+				5C720118DF5506C9CCC1314D /* Services */,
+				1487DBF53693379C62230158 /* Views */,
+			);
+			path = CodexPetDeck;
+			sourceTree = "<group>";
+		};
+		A6E6F99C1452CEB0140CBC5F = {
+			isa = PBXGroup;
+			children = (
+				9BD1C20AC71E9AE50FB980E6 /* CodexPetDeck */,
+				2FCED93AECA0D4ABA919EE35 /* CodexPetDeckTests */,
+				72A9C8C2FF6DFD877F86C6FB /* DeviceSupport */,
+				2BC2A31B48601E93AA3CBF54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C91C14A86806FCC27F707F38 /* CodexTail */ = {
+			isa = PBXGroup;
+			children = (
+				A0EFAB237ADA1214F8A77B66 /* CodexPetThemeBuilder.swift */,
+				E332ABCA83BF2014648AE895 /* CodexSessionParser.swift */,
+				B1CBC027E5986B2BC2D9FD83 /* CodexStateStore.swift */,
+				790268FBF5CE4702B8B0DD1B /* CodexTailEvent.swift */,
+				96C356E3041BD4E9862F94D7 /* CodexTailWatcher.swift */,
+			);
+			path = CodexTail;
+			sourceTree = "<group>";
+		};
+		DED783D06313321F0AD1B075 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB6C439D1A42B23AED1767 /* CodexPetDeckApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE84BF109AE9D1131C4E27AE /* CodexMicro */ = {
+			isa = PBXGroup;
+			children = (
+				7C330E151EB55D6C079662A1 /* CodexMicroBridge.swift */,
+				590650A667D4005F21D477AE /* CodexMicroHIDTransport.swift */,
+			);
+			path = CodexMicro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4853395D1A3612292310409D /* CodexPetDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1921D43C85553D4A4EB5D234 /* Build configuration list for PBXNativeTarget "CodexPetDeck" */;
+			buildPhases = (
+				F6AAAE294C181CCEA2E8258A /* Sources */,
+				066BDDF7BEDA542ADCA4DDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodexPetDeck;
+			packageProductDependencies = (
+			);
+			productName = CodexPetDeck;
+			productReference = 5897D2F7830951E9FE35CC6B /* CodexPetDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D807FBFEEB66B3C255286C6 /* CodexPetDeckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33CB75218ED4D29EC808382 /* Build configuration list for PBXNativeTarget "CodexPetDeckTests" */;
+			buildPhases = (
+				CCB5193114291F2F88818720 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C309D84C6540E93209548E7 /* PBXTargetDependency */,
+			);
+			name = CodexPetDeckTests;
+			packageProductDependencies = (
+			);
+			productName = CodexPetDeckTests;
+			productReference = 36A1F2746273D8B21A74FE3E /* CodexPetDeckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C6C4C11AA0E986A80C788B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4853395D1A3612292310409D = {
+						DevelopmentTeam = 437H22DTZS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15636AD27F96052C6CC73E12 /* Build configuration list for PBXProject "CodexPetDeck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A6E6F99C1452CEB0140CBC5F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2BC2A31B48601E93AA3CBF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4853395D1A3612292310409D /* CodexPetDeck */,
+				7D807FBFEEB66B3C255286C6 /* CodexPetDeckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		066BDDF7BEDA542ADCA4DDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3AF7F700A6F013FB463004 /* mk20-recover-lunch.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB5193114291F2F88818720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6E28925064017F7F41D9B1 /* CodexPetDeckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AAAE294C181CCEA2E8258A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E544586F87BD80F30F79856B /* CRC32.swift in Sources */,
+				AE0253E7421A6247B303A7E4 /* CodexDesktopController.swift in Sources */,
+				C0F34E33D478DD355A8D9600 /* CodexMicroBridge.swift in Sources */,
+				B33600B629F729DBB34F86EA /* CodexMicroHIDTransport.swift in Sources */,
+				2CBC20077565D8C09462957F /* CodexPetDeckApp.swift in Sources */,
+				2149EFF1C30EEAAF724A1A87 /* CodexPetThemeBuilder.swift in Sources */,
+				CBF57D0DFF1707AF96EBD376 /* CodexSessionParser.swift in Sources */,
+				8512AA77DFAD180ED22F9450 /* CodexStateStore.swift in Sources */,
+				AD7F694426A42A462D22F5C5 /* CodexTailEvent.swift in Sources */,
+				22B3684AAE6A6D00A21BDF8E /* CodexTailWatcher.swift in Sources */,
+				986F0CCB6B9C316AD83B347A /* DataLE.swift in Sources */,
+				2D2AF7B1BD639F1A2D6EEA33 /* IconImageNormalizer.swift in Sources */,
+				5E0098F43F79D102605DF460 /* MK20HIDWatcher.swift in Sources */,
+				0C7A8E4051E3D73C0A2E4108 /* PetDeckView.swift in Sources */,
+				D5694F6FC7493FE9A967361D /* PetDeckViewModel.swift in Sources */,
+				86406728FBC944249895339A /* SerialPort.swift in Sources */,
+				B87A26D8BA93FDDCC19A86FC /* ThemeBuilder.swift in Sources */,
+				5A4E36A79661F6338BDEA329 /* ThemeFileCodec.swift in Sources */,
+				2D4E2558F91E1C12879B8E10 /* ThemeJSONWriter.swift in Sources */,
+				D073281D6B6AC6006ACE1034 /* V2PacketCodec.swift in Sources */,
+				EAD5F11C9F9BDD6EE4775AE0 /* WidgetBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C309D84C6540E93209548E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4853395D1A3612292310409D /* CodexPetDeck */;
+			targetProxy = C3C9EA199506254A08300B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2452BBBDCCBFDEB3C1F67785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 437H22DTZS;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CodexPetDeck Direct";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = CodexPetDeck;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.screenkey.codexpetdeck.direct;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DF7E52F895810A6B3FDB70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.screenkey.codexpetdeck.direct.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodexPetDeck.app/Contents/MacOS/CodexPetDeck";
+			};
+			name = Release;
+		};
+		63B7BA7A27B809CEDA029D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 437H22DTZS;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CodexPetDeck Direct";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = CodexPetDeck;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.screenkey.codexpetdeck.direct;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		78B77C388DE0973EA2621B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.screenkey.codexpetdeck.direct.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodexPetDeck.app/Contents/MacOS/CodexPetDeck";
+			};
+			name = Debug;
+		};
+		E14CE7725222FC55A11B708E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFFC5B830A9B660415779155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15636AD27F96052C6CC73E12 /* Build configuration list for PBXProject "CodexPetDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14CE7725222FC55A11B708E /* Debug */,
+				EFFC5B830A9B660415779155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1921D43C85553D4A4EB5D234 /* Build configuration list for PBXNativeTarget "CodexPetDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2452BBBDCCBFDEB3C1F67785 /* Debug */,
+				63B7BA7A27B809CEDA029D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F33CB75218ED4D29EC808382 /* Build configuration list for PBXNativeTarget "CodexPetDeckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B77C388DE0973EA2621B70 /* Debug */,
+				4DF7E52F895810A6B3FDB70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C6C4C11AA0E986A80C788B5 /* Project object */;
+}

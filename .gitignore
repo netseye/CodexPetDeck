@@ -1,0 +1,19 @@
+.DS_Store
+build/
+dist/
+DerivedData/
+.build/
+*.app
+*.dSYM/
+*.xcresult
+*.log
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+.env
+.env.*
+
+# DeviceSupport contains the reproducible sources. Architecture-specific
+# artifacts stay local and are intentionally not published.
+DeviceSupport/codex-micro-bridge
+DeviceSupport/*.ko

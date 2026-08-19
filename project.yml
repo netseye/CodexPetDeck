@@ -1,0 +1,46 @@
+name: CodexPetDeck
+options:
+  bundleIdPrefix: com.screenkey
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    CLANG_ENABLE_MODULES: YES
+targets:
+  CodexPetDeck:
+    type: application
+    platform: macOS
+    sources:
+      - path: CodexPetDeck
+      # 生产包只携带回到原厂 CDC 的逃生脚本。自定义 gadget、内核模块和
+      # ARM bridge 源码留在 DeviceSupport 中供研究，但绝不随应用分发。
+      - path: DeviceSupport/mk20-recover-lunch.sh
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.screenkey.codexpetdeck.direct
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: 437H22DTZS
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: CodexPetDeck Direct
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_NSHumanReadableCopyright: "CodexPetDeck"
+        INFOPLIST_KEY_NSHighResolutionCapable: YES
+        ENABLE_HARDENED_RUNTIME: NO
+    scheme:
+      testTargets:
+        - CodexPetDeckTests
+  CodexPetDeckTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: CodexPetDeckTests
+    dependencies:
+      - target: CodexPetDeck
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.screenkey.codexpetdeck.direct.tests
+        GENERATE_INFOPLIST_FILE: YES
