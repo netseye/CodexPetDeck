@@ -1,0 +1,49 @@
+name: Bug report
+description: 报告 macOS 应用、MK20 协议或硬件兼容性问题
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 提交日志前请删除用户名、本机路径、设备序列号和 Codex 会话内容。
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 与 CodexPetDeck 版本
+      placeholder: macOS 14.x / commit SHA
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: MK20 型号与固件版本
+      placeholder: MK20 / V2.32
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请说明使用的键位、旋钮、主题和 USB 接口。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果与脱敏日志
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前检查
+      options:
+        - label: 已关闭官方 ScreenKey 应用，避免串口争用
+        - label: 已删除日志中的隐私信息
+          required: true

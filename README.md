@@ -1,5 +1,7 @@
 # CodexPetDeck
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 原生 macOS SwiftUI 应用，把 ScreenKey MK20 变成 Codex Desktop 的 20 键控制台和实时状态面板。
 
 > 当前状态：实验性开源项目。主流程已在 MK20 固件 V2.32 与 macOS 14+ 上验证；一台测试设备的物理 K18 存在扫描异常，详见 [K18 排查记录](docs/K18_INVESTIGATION.md)。
